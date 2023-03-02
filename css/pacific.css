@@ -1,0 +1,151 @@
+body{
+    background-color: #90C7E3;
+    background-image: linear-gradient(#FFFFFF,#90C7E3);
+    color: #666666;
+    font-family: Verdana, sans-serif;
+}
+
+header{
+    background-color: #002171;
+    color: #ffffff;
+    background-image: url('/img/sunset.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+main{
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+}
+
+nav{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 1.5s ease-out;
+}
+
+nav a:link{color: #5C7FA3;}
+nav a:visited {color: #344873;}
+
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, serif;
+}
+
+h2{
+    color: #1976d2;
+    font-family: Georgia, serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+ul{
+    list-style-image: url('/img/marker2.gif');
+}
+
+h3{
+    font-family: Georgia, serif;
+    color: #000033;
+}
+
+dt{
+    color: #002171;
+}
+
+footer{
+    font-size: 75%;
+    font-family: Georgia,serif;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+}
+
+.resort{
+    color: #1976d2;
+    font-weight: bold;
+}
+
+#contact{
+    font-size: 90%;
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    background-color: #FFFFFF;
+}
+
+#homehero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url('/img/coast.jpg');
+    background-repeat: no-repeat;
+}
+
+#yurthero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url('/img/yurt.jpg');
+    background-repeat: no-repeat;
+}
+
+#trailhero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url('/img/trail.jpg');
+    background-repeat: no-repeat;
+}
+
+table{ border-width: 2px ;
+border-color: #3399CC;
+border-collapse: collapse;
+border: solid;}
+
+td{ padding: 0.5em;
+    border-width: 2px;
+    border-color: #3399CC;
+    text-align: center;
+    border: solid;}
+
+th{  padding: 0.5em;
+    border-width: 2px;
+    border-color: #3399CC;
+    border: solid;}
+
+.text{text-align: left;}
+
+#special{grid-row: auto;grid-column: 1/5}
+
+tr:nth-of-type(odd){background-color: #F5FAFC;}
+
+form {
+    width: 60%;
+    display: grid;
+    grid-gap: 1em;
+    column-count: 2;
+    grid-template-columns: 6em 1fr;
+    grid-template-rows: auto;
+    flex-flow: column nowrap;
+}
+
+input[type="submit"]{
+    grid-column: 2/3;
+    width: 9em;
+}
+
+input, textarea{margin-bottom: 0.5em}
