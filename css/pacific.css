@@ -8,12 +8,17 @@ body{
 header{
     background-color: #002171;
     color: #ffffff;
-    background-image: url('img/sunset.jpg');
+    background-image: url('/img/sunset.jpg');
     background-repeat: no-repeat;
     background-position-x: right;
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+header a:hover{
+    color: #8F92B2;
+    transition: color 10.0s ease-out;
 }
 
 main{
@@ -52,7 +57,7 @@ h2{
 }
 
 ul{
-    list-style-image: url('img/marker2.gif');
+    list-style-image: url('/img/marker2.gif');
 }
 
 h3{
@@ -93,21 +98,21 @@ footer{
 #homehero{
     height: 300px;
     background-size: 100% 100%;
-    background-image: url('img/coast.jpg');
+    background-image: url('/img/coast.jpg');
     background-repeat: no-repeat;
 }
 
 #yurthero{
     height: 300px;
     background-size: 100% 100%;
-    background-image: url('img/yurt.jpg');
+    background-image: url('/img/yurt.jpg');
     background-repeat: no-repeat;
 }
 
 #trailhero{
     height: 300px;
     background-size: 100% 100%;
-    background-image: url('img/trail.jpg');
+    background-image: url('/img/trail.jpg');
     background-repeat: no-repeat;
 }
 
